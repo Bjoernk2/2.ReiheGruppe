@@ -1,6 +1,6 @@
 #CSV to HTML
 import os
-dir = "C://Users/luca.ferreirawolters/Desktop/PythonTest"
+dir = "C://Users/<username>/Desktop/PythonTest"
 csv_datei = open(dir + "/BoxOfficeMojo.csv", "r")
 html_datei = open(dir + "/BoxOfficeMojo.html", "a")
 html_datei.write("<html><body><h1>Box Office Mojo Ranking</h1><table>")
